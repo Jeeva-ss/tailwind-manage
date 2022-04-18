@@ -10,14 +10,14 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="relative container p-6 mx-auto">
+    <nav class="container relative mx-auto p-6">
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="pt-2">
           <img src="img/logo.svg" alt="" />
         </div>
         <!-- Nav Link -->
-        <div class="hidden md:flex space-x-6">
+        <div class="hidden space-x-6 md:flex">
           <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
           <a href="#" class="hover:text-darkGrayishBlue">Product</a>
           <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
@@ -27,14 +27,14 @@
         <!-- Button -->
         <a
           href="#"
-          class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
+          class="baseline hidden rounded-full bg-brightRed p-3 px-6 pt-2 text-white hover:bg-brightRedLight md:block"
           >Get Started</a
         >
 
         <!-- Hamburger Icon -->
         <button
           id="menu-btn"
-          class="block hamburger md:hidden focus:outline-none"
+          class="hamburger block focus:outline-none md:hidden"
         >
           <span class="hamburger-top"></span>
           <span class="hamburger-middle"></span>
@@ -46,7 +46,7 @@
       <div class="md:hidden">
         <div
           id="menu"
-          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          class="absolute left-6 right-6 mt-10 hidden flex-col items-center space-y-6 self-end bg-white py-8 font-bold drop-shadow-md sm:w-auto sm:self-center"
         >
           <a href="#">Pricing</a>
           <a href="#">Product</a>
@@ -59,12 +59,12 @@
     <!-- Hero -->
     <section id="hero">
       <div
-        class="container flex flex-col-reverse items-center p-6 mx-auto mt-10 space-y-0 md:flex-row md:space-y-0"
+        class="container mx-auto mt-10 flex flex-col-reverse items-center space-y-0 p-6 md:flex-row md:space-y-0"
       >
         <!-- left -->
-        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+        <div class="mb-32 flex flex-col space-y-12 md:w-1/2">
           <h1
-            class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
+            class="max-w-md text-center text-4xl font-bold md:text-left md:text-5xl"
           >
             Bring everyone together to build better products
           </h1>
@@ -75,7 +75,7 @@
           <div class="flex justify-center md:justify-start">
             <a
               href="#"
-              class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+              class="baseline rounded-full bg-brightRed p-3 px-6 pt-2 text-white hover:bg-brightRedLight"
               >Get Started</a
             >
           </div>
@@ -91,11 +91,11 @@
     <section id="features">
       <!-- Flex container -->
       <div
-        class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row"
+        class="container mx-auto mt-10 flex flex-col space-y-12 px-4 md:flex-row md:space-y-0"
       >
         <!-- What's Different -->
         <div class="flex flex-col space-y-12 md:w-1/2">
-          <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+          <h2 class="max-w-md text-center text-4xl font-bold md:text-left">
             What's different about Manage?
           </h2>
           <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
@@ -109,13 +109,13 @@
         <div class="flex flex-col space-y-8 md:w-1/2">
           <!-- List Item 1 -->
           <div
-            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+            class="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-6"
           >
             <!-- Heading -->
             <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
               <div class="flex items-center space-x-2">
                 <div
-                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                  class="rounded-full bg-brightRed px-4 py-2 text-white md:py-1"
                 >
                   01
                 </div>
@@ -126,7 +126,7 @@
             </div>
 
             <div>
-              <h3 class="hidden mb-4 text-lg font-bold md:block">
+              <h3 class="mb-4 hidden text-lg font-bold md:block">
                 Track company-wide progress
               </h3>
               <p class="text-darkGrayishBlue">
@@ -140,13 +140,13 @@
 
           <!-- List Item 2 -->
           <div
-            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+            class="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-6"
           >
             <!-- Heading -->
             <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
               <div class="flex items-center space-x-2">
                 <div
-                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                  class="rounded-full bg-brightRed px-4 py-2 text-white md:py-1"
                 >
                   02
                 </div>
@@ -157,7 +157,7 @@
             </div>
 
             <div>
-              <h3 class="hidden mb-4 text-lg font-bold md:block">
+              <h3 class="mb-4 hidden text-lg font-bold md:block">
                 Advanced built-in reports
               </h3>
               <p class="text-darkGrayishBlue">
@@ -170,13 +170,13 @@
 
           <!-- List Item 3 -->
           <div
-            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+            class="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-6"
           >
             <!-- Heading -->
             <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
               <div class="flex items-center space-x-2">
                 <div
-                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                  class="rounded-full bg-brightRed px-4 py-2 text-white md:py-1"
                 >
                   03
                 </div>
@@ -187,7 +187,7 @@
             </div>
 
             <div>
-              <h3 class="hidden mb-4 text-lg font-bold md:block">
+              <h3 class="mb-4 hidden text-lg font-bold md:block">
                 Everything you need in one place
               </h3>
               <p class="text-darkGrayishBlue">
@@ -204,18 +204,18 @@
     <!-- Testimonials -->
     <section id="testimonials">
       <!-- Container to heading and testm blocks -->
-      <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+      <div class="mx-auto mt-32 max-w-6xl px-5 text-center">
         <!-- Heading -->
-        <h2 class="text-4xl font-bold text-center">
+        <h2 class="text-center text-4xl font-bold">
           What's Different About Manage?
         </h2>
         <!-- Testimonials Container -->
-        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+        <div class="mt-24 flex flex-col md:flex-row md:space-x-6">
           <!-- Testimonial 1 -->
           <div
-            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3"
+            class="flex flex-col items-center space-y-6 rounded-lg bg-veryLightGray p-6 md:w-1/3"
           >
-            <img src="img/avatar-anisha.png" class="w-16 -mt-14" alt="" />
+            <img src="img/avatar-anisha.png" class="-mt-14 w-16" alt="" />
             <h5 class="text-lg font-bold">Anisha Li</h5>
             <p class="text-sm text-darkGrayishBlue">
               “Manage has supercharged our team’s workflow. The ability to
@@ -226,9 +226,9 @@
 
           <!-- Testimonial 2 -->
           <div
-            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
+            class="hidden flex-col items-center space-y-6 rounded-lg bg-veryLightGray p-6 md:flex md:w-1/3"
           >
-            <img src="img/avatar-ali.png" class="w-16 -mt-14" alt="" />
+            <img src="img/avatar-ali.png" class="-mt-14 w-16" alt="" />
             <h5 class="text-lg font-bold">Ali Bravo</h5>
             <p class="text-sm text-darkGrayishBlue">
               “We have been able to cancel so many other subscriptions since
@@ -239,9 +239,9 @@
 
           <!-- Testimonial 3 -->
           <div
-            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
+            class="hidden flex-col items-center space-y-6 rounded-lg bg-veryLightGray p-6 md:flex md:w-1/3"
           >
-            <img src="img/avatar-richard.png" class="w-16 -mt-14" alt="" />
+            <img src="img/avatar-richard.png" class="-mt-14 w-16" alt="" />
             <h5 class="text-lg font-bold">Richard Watts</h5>
             <p class="text-sm text-darkGrayishBlue">
               “Manage has supercharged our team’s workflow. The ability to
@@ -254,7 +254,7 @@
         <div class="my-16">
           <a
             href="#"
-            class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+            class="baseline rounded-full bg-brightRed p-3 px-6 pt-2 text-white hover:bg-brightRedLight"
             >Get Started</a
           >
         </div>
@@ -265,11 +265,11 @@
     <section id="cta" class="bg-brightRed">
       <!-- Flex Container -->
       <div
-        class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
+        class="container mx-auto flex flex-col items-center justify-between space-y-12 px-6 py-24 md:flex-row md:space-y-0 md:py-12"
       >
         <!-- Heading -->
         <h2
-          class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left"
+          class="text-center text-5xl font-bold leading-tight text-white md:max-w-xl md:text-left md:text-4xl"
         >
           Simplify how your team works today
         </h2>
@@ -277,7 +277,7 @@
         <div>
           <a
             href="#"
-            class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900"
+            class="baseline rounded-full bg-white p-3 px-6 pt-2 text-brightRed shadow-2xl hover:bg-gray-900"
             >Get Started</a
           >
         </div>
@@ -288,11 +288,11 @@
     <footer class="bg-veryDarkBlue">
       <!-- Flex Container -->
       <div
-        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+        class="container mx-auto flex flex-col-reverse justify-between space-y-8 px-6 py-10 md:flex-row md:space-y-0"
       >
         <!-- Logo and social links container -->
         <div
-          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:items-start md:space-y-0"
         >
           <div class="mx-auto my-6 text-center text-white md:hidden">
             Copyright &copy; 2022, All Rights Reserved
@@ -346,11 +346,11 @@
             <div class="flex space-x-3">
               <input
                 type="text"
-                class="flex-1 px-4 rounded-full focus:outline-none"
+                class="flex-1 rounded-full px-4 focus:outline-none"
                 placeholder="Updated in your inbox"
               />
               <button
-                class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none"
+                class="rounded-full bg-brightRed px-6 py-2 text-white hover:bg-brightRedLight focus:outline-none"
               >
                 Go
               </button>
